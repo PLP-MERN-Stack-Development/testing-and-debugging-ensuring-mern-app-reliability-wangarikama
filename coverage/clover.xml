@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1763982201977" clover="3.2.0">
+  <project timestamp="1763982201978" name="All files">
+    <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="4" coveredmethods="4" elements="13" coveredelements="13" complexity="0" loc="8" ncloc="8" packages="2" files="2" classes="2"/>
+    <package name="client.src.hooks">
+      <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
+      <file name="useToggle.js" path="/home/cathy-kamau/testing-and-debugging-ensuring-mern-app-reliability-wangarikama/client/src/hooks/useToggle.js">
+        <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="server.src.utils">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="slugify.js" path="/home/cathy-kamau/testing-and-debugging-ensuring-mern-app-reliability-wangarikama/server/src/utils/slugify.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

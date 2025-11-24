@@ -10,12 +10,15 @@ module.exports = {
       testMatch: ['<rootDir>/server/tests/**/*.test.js'],
       moduleFileExtensions: ['js', 'json', 'node'],
       setupFilesAfterEnv: ['<rootDir>/server/tests/setup.js'],
-      coverageDirectory: '<rootDir>/coverage/server',
+      coverageDirectory: '<rootDir>/coverage/server', 
       collectCoverageFrom: [
         'server/src/**/*.js',
         '!server/src/config/**',
         '!**/node_modules/**',
       ],
+      moduleNameMapper: {
+    "^@/src/(.*)$": "<rootDir>/server/src/$1", 
+  },
     },
     
     // Client-side tests configuration

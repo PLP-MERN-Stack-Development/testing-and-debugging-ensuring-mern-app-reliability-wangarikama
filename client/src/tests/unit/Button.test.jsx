@@ -1,10 +1,11 @@
 // Button.test.jsx - Unit test for Button component
 
-import React from 'react';
-import { render, screen, fireEvent } from '@testing-library/react';
-import '@testing-library/jest-dom';
-import Button from '../../components/Button';
+const React = require('react');
+const { render, screen, fireEvent } = require('@testing-library/react');
 
+require('@testing-library/jest-dom');
+
+const Button = require('../components/Button');
 describe('Button Component', () => {
   // Test rendering
   it('renders with default props', () => {
